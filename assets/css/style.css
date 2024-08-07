@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  margin: 10rem auto;
+  width: 32rem;
+  height: 49.9rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.6rem;
+}
+
+.card .qr {
+  width: 28.8rem;
+  height: 28.8rem;
+  padding-bottom: 2.4rem;
+}
+
+.card .qr img {
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.card .text h1 {
+  font-size: 2rem;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.card .text p {
+  font-size: 1.5rem;
+  color: hsl(216, 15%, 48%);
+  font-weight: 400;
+}
+
+.attribution {
+  position: absolute;
+  inset: 62rem 0 0 61.5rem;
+  font-size: 1.6rem;
+}
